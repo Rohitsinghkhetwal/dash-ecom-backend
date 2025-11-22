@@ -1,8 +1,9 @@
 
 
+
  # E-commerce backend app 
 
-
+ 
 -   **`index.ts`**  
     Acts as the **entry point** of the application. It initializes the Express server and loads all core modules.
     
@@ -52,5 +53,16 @@ and create this of your own .
 ### Voila You started the backend app. 
 
 Deploying the app in free render instance . gmail OTP may not work (It require paid instance ), Please try to run in local . 
+
+```
+
+
+```
+
+## Basic Flows of Application.
+We have Products stored in Database and we are fetching it using REST API .
+WE are creating the orders and saving to backend and sending a mail to the user.
+The flow is straight forward selecting the products in frontend placing the order .
+After placing the order we are saving the data to database and sending a mail .
 
 ```
